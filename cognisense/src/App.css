@@ -53,6 +53,11 @@ li a {
   
   text-decoration: none;
   color: var(--tertiary-color);
+  padding: 14px 16px;
+}
+
+li a:hover:not(.active) {
+  background: var(--primary-color);
 }
 .image-container {
   
