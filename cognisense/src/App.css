@@ -105,6 +105,7 @@ li a:hover:not(.active) {
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.2rem;
+  margin: 2.4rem;
 }
 
 footer {
@@ -114,11 +115,92 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: var(--secondary-color);
-   text-align: center;
+  text-align: center;
 }
 
 .footer-paragraph {
   font-size: 1.7rem;
   font-weight: 600;
   color: var(--tertiary-color);
+}
+
+.plan-container {
+  display: flex;
+  justify-content: flex-end;
+  /* max-width: 1100px; */
+  border-radius: 5px;
+  margin: 20px 50px 0px 50px;
+  margin-bottom: 2.4rem;
+  padding: 20px 30px;
+  background-color: var(--primary-color);
+}
+
+.card {
+  flex: 1;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.card h2 {
+  margin-bottom: 10px;
+  background: var(--primary-color);
+  color: var(--accent-color);
+  font-weight: 600;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.card-free {
+
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-essential {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-pro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.card-essential h2 {
+  background: var(--tertiary-color);
+    color: var(--accent-color);
+
+}
+
+.card-pro h2 {
+  background: var(--tertiary-color);
+        color: var(--accent-color);
+}
+
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.card li {
+  list-style-type: none;
+  margin-bottom: 10px; 
+}
+
+.btn-2 {
+  text-decoration: none;
+  color: var(--accent-color);
 }
