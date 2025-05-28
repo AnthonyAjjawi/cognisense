@@ -2,16 +2,32 @@ export default function Body() {
     return (
         <body>
             <div className="intro">
+                {/* paragraph - 1 */}
                     <p className="intro-paragraph">Cognisense is an AI powered law platform that specializes in the quick, efficient, and accurate completion
                       of simple divorces. We guide you through each step of the process, so you don't have to feel overwhelmed by the 
                       paperwork. With the support of AI, you will feel your questions and concerns will be heard and answered. Best of all,
                       you will not have to pay exuberant fees to complete your simple divorce.
                     </p>
+
+
+                    {/* paragraph - 2 */}
+
+                    <div className="why-us">
+                        <p className="why-us-paragraph">You might be asking yourself why should switch over and choose Cognisense? Not all do we save
+                            you the hassle of tracking down lost paperwork, unreliable timeframes, and ensure a smooth guide to your simple divorce. We are there
+                            for you at your earliest convinence to provide you with legal advice and assistance. We will help you take charge of your life again!
+                        </p>
+                    </div>
+
+
+
                      {/* btn */}
                      <div className="btn-1">
                     <a href="#plan-container">Find out more</a>
                     </div>
-                    <div className="plan-container" id="plan-container">
+                   
+            </div>
+             <div className="plan-container" id="plan-container">
                         <div class="pricing">
                             {/* card  - 1 */}
                             <div className="card card-free">
@@ -56,7 +72,6 @@ export default function Body() {
                             {/* card - 2 */}
                         </div>
                     </div>
-            </div>
         </body>
     )
 }
