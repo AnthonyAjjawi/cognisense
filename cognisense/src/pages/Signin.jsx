@@ -1,11 +1,13 @@
 // src/pages/Home.jsx
 import React from 'react';
+import Header from '../components/Header';
+
 
 function Signin() {
   return (
-    <div>
-      <h1>This is the Home Page</h1>
-    </div>
+    <>
+    <Header />
+    </>
   );
 }
 

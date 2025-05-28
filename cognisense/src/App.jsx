@@ -11,14 +11,19 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import Aichat from './pages/Aichat';
 import Contact from './pages/Contact';
+import Telephone from './assets/telephone.jpg'
 
 function App() {
   return (
     <>
-      {/* <Header />
-      // <Navbar /> */}
-      {Header}
+   
+     {Header}
+      
       {Navbar}
+      
+    
+      
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<Signin />} />
@@ -28,7 +33,7 @@ function App() {
       </Routes>
 
    
-      <Footer />
+      <Footer></Footer>
     </>
   );
 }

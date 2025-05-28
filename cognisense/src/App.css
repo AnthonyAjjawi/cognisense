@@ -67,14 +67,13 @@ li a:hover:not(.active) {
   position: relative;
   
   overflow: hidden;
-  
-}
-
-.logo.telephone {
   width: 100%;
   max-height: 600px;
   opacity: 0.8;
+  
 }
+
+
 
 .intro {
   color:  var(--accent-color);
